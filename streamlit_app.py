@@ -21,7 +21,7 @@ def load_population():
 
 @st.cache_data
 def load_animals():
-    return pd.read_csv("data/animals.csv")
+    return pd.read_csv("data/animal.csv")
 
 pop_df = load_population()
 animal_df = load_animals()
